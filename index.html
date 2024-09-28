@@ -1,0 +1,506 @@
+<!--doctype html-->
+<html>
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--==Title============================================================-->
+<title>Travel Website</title>
+
+<!--==Stylesheet=======================================================-->
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+<!--==Fav-icon=========================================================-->
+<link rel="shortcut icon" href="/assets/1st.png"/>
+
+<!--==Using-Font-Awesome-for-Icons=====================================-->
+<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+
+<!--==Import-Poppins-Font-Family-From-Google-Font======================-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+
+</head>
+
+<body>
+
+    <!--==Navigation=============================-->
+    <nav class="navigation">
+
+        <!--logo-->
+        <marquee behavior="alternate" direction="Right" hight="100px" width="650px">
+            <a href="index.html" class="logo"><img src="/assets/1st.png" alt="" height="60px"></i>Travel</a>
+        </marquee>
+        
+        
+        <!--menu-btn-->
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon">
+            <span class="nav-icon"></span>
+        </label>
+
+        <!--menu-->
+        <ul class="menu">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="#trending">Trending</a></li>
+            <li><a href="#destination">Destination</a></li>
+        </ul>
+
+
+    </nav>
+    <!--nav-end-->
+
+    
+    
+    <!--==main==============================-->
+    <section id="main">
+    <div class="content">
+        <!--text-->
+        <div class="main-text">
+            <strong>Explore The World <i class="fas fa-globe-americas"></i></strong>
+            <h1>It's a Big World Out There, Go Explore</h1>
+            <a href="#">Book Online</a>
+        </div>
+        <!--img-->
+        <div class="main-img">
+            <img alt="Traveling" src="/assets/1st.png">
+        </div>
+    </div>
+
+
+
+    <!--==Search-Tour=====================-->
+    <div class="search-tour">
+    <form>
+        <!--Location-->
+        <div class="t-search-box">
+            <div class="s-b-icon">
+                <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="s-b-input">
+                <span>Location <i class="fas fa-chevron-down"></i></span>
+                <input type="text" name="location" placeholder="Greater Noida" required/>
+            </div>
+        </div>
+        <!--Date-->
+        <div class="t-search-box">
+            <div class="s-b-icon">
+                <i class="far fa-calendar-alt"></i>
+            </div>
+            <div class="s-b-input">
+                <span>Tour Date <i class="fas fa-chevron-down"></i></span>
+                <input type="date" id="tourdate" name="tourdate" required/>
+            </div>
+        </div>
+        <!--Guest-->
+        <div class="t-search-box">
+            <div class="s-b-icon">
+                <i class="fas fa-users"></i>
+            </div>
+            <div class="s-b-input">
+                <span>Persons <i class="fas fa-chevron-down"></i></span>
+                <input type="number" name="total-tourist" placeholder="" required/>
+            </div>
+        </div>
+        <!--Btn-->
+        <div class="t-search-btn">
+            <button><i class="fas fa-search"></i></button>
+        </div>
+
+    </form>
+    </div>
+    </section>
+
+
+
+    <!--==Trending===========================-->
+    <section id="trending">
+
+        <!--heading-container************-->
+        <div class="trending-heading-container">
+        
+
+        <!--==trend-box-container==============-->
+        <div class="trending-box-container">
+
+        <!-- Swiper Slider -->
+        <div class="swiper mySwipercard">
+        <div class="swiper-wrapper">
+
+            <!--**Slide-1*******************-->
+            <div class="swiper-slide">
+                <!--box**********-->
+            <div class="trending-box">
+                <!--img-->
+                <div class="t-b-img">
+                    <img alt="Akshardham mandir" src="/assets/Akshardham mandir.jpg">
+                </div>
+                <!--text-->
+                <div class="t-b-text">
+                    <a href="#">Akshardham mandir</a>
+                    <span>1 Places </span>
+                </div>
+                <!--price-&-Book-->
+                <div class="price-book">
+                    <span class="t-price">&#8377;1500</span>
+                    <a href="#" class="t-book-btn">Book Now</a>
+                </div>
+                <!--agency-name-->
+                <div>
+                    <span>Worship &#38; Tourism</span>
+                </div>
+            </div>
+            </div>
+
+
+            <!--**Slide-1*******************-->
+            <div class="swiper-slide">
+                <!--box**********-->
+            <div class="trending-box">
+                <!--img-->
+                <div class="t-b-img">
+                    <img alt="India gate" src="/assets/India gate.jpg">
+                </div>
+                <!--text-->
+                <div class="t-b-text">
+                    <a href="#">India gate</a>
+                    <span>3 Places </span>
+                </div>
+                <!--price-&-Book-->
+                <div class="price-book">
+                    <span class="t-price">&#8377;1500</span>
+                    <a href="#" class="t-book-btn">Book Now</a>
+                </div>
+                <!--agency-name-->
+                <div>
+                    <span>Tourism</span>
+                </div>
+            </div>
+            </div>
+
+
+            <!--**Slide-1*******************-->
+            <div class="swiper-slide">
+                <!--box**********-->
+            <div class="trending-box">
+                <!--img-->
+                <div class="t-b-img">
+                    <img alt="Humayun’sTomb" src="/assets/Humayun’sTomb.jpg">
+                </div>
+                <!--text-->
+                <div class="t-b-text">
+                    <a href="#">Humayun’sTomb</a>
+                    <span>2 Places </span>
+                </div>
+                <!--price-&-Book-->
+                <div class="price-book">
+                    <span class="t-price">&#8377;1500</span>
+                    <a href="#" class="t-book-btn">Book Now</a>
+                </div>
+                <!--agency-name-->
+                <div>
+                    <span>Tourism</span>
+                </div>
+            </div>
+            </div>
+
+
+            <!--**Slide-1*******************-->
+            <div class="swiper-slide">
+                <!--box**********-->
+            <div class="trending-box">
+                <!--img-->
+                <div class="t-b-img">
+                    <img alt="Bangla saheb guru dwara" src="/assets/Bangla saheb guru dwara.jpg">
+                </div>
+                <!--text-->
+                <div class="t-b-text">
+                    <a href="#">Bangla saheb guru dwara</a>
+                    <span>5 Places</span>
+                </div>
+                <!--price-&-Book-->
+                <div class="price-book">
+                    <span class="t-price">&#8377;1500</span>
+                    <a href="#" class="t-book-btn">Book Now</a>
+                </div>
+                <!--agency-name-->
+                <div>
+                    <span>Worship &#38; Tourism</span>
+                </div>
+            </div>
+            </div>
+
+
+            <!--**Slide-1*******************-->
+            <div class="swiper-slide">
+                <!--box**********-->
+            <div class="trending-box">
+                <!--img-->
+                <div class="t-b-img">
+                    <img alt="Jama masjid" src="/assets/Jama masjid.jpg">
+                </div>
+                <!--text-->
+                <div class="t-b-text">
+                    <a href="#">Jama masjid</a>
+                    <span>2 Places</span>
+                </div>
+                <!--price-&-Book-->
+                <div class="price-book">
+                    <span class="t-price">&#8377;1500</span>
+                    <a href="#" class="t-book-btn">Book Now</a>
+                </div>
+                <!--agency-name-->
+                <div>
+                    <span>Worship &#38; Tourism</span>
+                </div>
+            </div>
+            </div>
+
+
+            <!--**Slide-1*******************-->
+            <div class="swiper-slide">
+                <!--box**********-->
+            <div class="trending-box">
+                <!--img-->
+                <div class="t-b-img">
+                    <img alt="Lotus Tempel" src="/assets/Lotus Tempel.jpg">
+                </div>
+                <!--text-->
+                <div class="t-b-text">
+                    <a href="#">Lotus Tempel</a>
+                    <span>3 Places</span>
+                </div>
+                <!--price-&-Book-->
+                <div class="price-book">
+                    <span class="t-price">&#8377;1500</span>
+                    <a href="#" class="t-book-btn">Book Now</a>
+                </div>
+                <!--agency-name-->
+                <div>
+                    <span>Worship &#38; Tourism</span>
+                </div>
+            </div>
+            </div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+        </div>
+
+        </div>
+
+    </section>
+
+
+    <!--==Destination===========================-->
+    <section id="destination">
+
+            <!--heading******************-->
+            <div class="destination-heading">
+                <h2>TOP Destinations</h2>
+            </div>
+
+            <!--destination-grid*********-->
+            <div class="destination-grid">
+
+                <!--box=======-->
+                <div class="destination-box d-b-1">
+                    <img alt="Destination" src="/assets/Kalka ji mandir temple.jpg"/>
+                    <!--text-->
+                    <div class="d-b-text-container">
+                        <span class="ration">3.5</span>
+                        <div class="d-b-text">
+                            <strong>Kalka ji mandir temple</strong>
+                            <span>Goddess Kali</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!--box=======-->
+                <div class="destination-box d-b-2">
+                    <img alt="Destination" src="/assets/Lodhi garden.jpg"/>
+                    <!--text-->
+                    <div class="d-b-text-container">
+                        <span class="ration">3.5</span>
+                        <div class="d-b-text">
+                            <strong>Lodhi garden</strong>
+                            <span>WorefalLodi and Mughal dynasties</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--box=======-->
+                <div class="destination-box d-b-3">
+                    <img alt="Destination" src="/assets/Lotus Tempel.jpg"/>
+                    <!--text-->
+                    <div class="d-b-text-container">
+                        <span class="ration">3.5</span>
+                        <div class="d-b-text">
+                            <strong>Lotus Tempel</strong>
+                            <span>Place of worship</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--box=======-->
+                <div class="destination-box d-b-4">
+                    <img alt="Destination" src="/assets/Qutub minar.jpg"/>
+                    <!--text-->
+                    <div class="d-b-text-container">
+                        <span class="ration">3.5</span>
+                        <div class="d-b-text">
+                            <strong>Qutub minar</strong>
+                            <span>Islamic and Hindu architectural styles</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--box=======-->
+                <div class="destination-box d-b-5">
+                    <img alt="Destination" src="/assets/Somnath temple.jpg"/>
+                    <!--text-->
+                    <div class="d-b-text-container">
+                        <span class="ration">3.5</span>
+                        <div class="d-b-text">
+                            <strong>Somnath temple</strong>
+                            <span>Jyotirlings of Lord Shiva</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--box=======-->
+                <div class="destination-box d-b-6">
+                    <img alt="Destination" src="/assets/statue of unity.jpg"/>
+                    <!--text-->
+                    <div class="d-b-text-container">
+                        <span class="ration">3.5</span>
+                        <div class="d-b-text">
+                            <strong>statue of unity</strong>
+                            <span>Sardar Vallabhbhai Patel</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+    </section>
+
+    <!--==Testimonials========================-->
+    <section id="testimonials">
+
+        <!--**Slider***************************-->
+        <div class="testmonials-slider">
+
+        <!-- Swiper -->
+        <div class="swiper mySwipertest">
+        <div class="swiper-wrapper">
+            <!--1-->
+            <div class="swiper-slide">
+            <!--==box============-->
+            <div class="testimonials-box">
+            <!--text-->
+            <div class="testimonials-box-text">
+                <i class="fas fa-quote-left"></i>
+                <p>कुछ सपने पूरे करने हैं, कुछ मंजिलों से मिलना है,<br>
+                   अभी सफर शुरू हुआ है, मुझे बहुत दूर तक चलना है !
+                </p>
+                <strong>#Musafir</strong>
+            </div>
+            <!--img-->
+            <div class="testimonials-box-img">
+                <img alt="Testimonials" src="/assets/Smile.jpeg">
+            </div>
+            </div>
+            </div>
+            </div><!--slide-end-->
+            
+        </div>
+        <div class="swiper-pagination"></div>
+        </div>
+
+        
+    </div>
+    </section>
+
+
+    <!--==Subscribe===========================-->
+    <section id="subscribe">
+        <strong>Subscribe</strong>
+        <p>Reacive Latest offers and other things every weak.</p>
+        <form>
+            <input type="email" name="subscribe" placeholder="Enter Your Email Address" required/>
+            <button><i class="fas fa-paper-plane"></i></button>
+        </form>
+    </section>
+
+
+
+
+    <!--==footer===============================-->
+    <footer>
+        <!--container**********************-->
+        <div class="footer-container">
+
+            
+
+            <!--**Footer-box*******************-->
+            <div class="footer-box">
+                <strong>Contact</strong>
+                <span><i class="fas fa-map-marker-alt"></i>Greater Noida, INDIA</span>
+                <span><i class="far fa-envelope"></i> <a href="#">Example@gmail.com</a></span>
+                <span><i class="fas fa-phone-square-alt"></i><a href="#">0123456789</a></span>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+     <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script type="text/javascript">
+         var swiper = new Swiper(".mySwipercard", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween:20,
+          },
+        },
+      });
+
+      var swiper = new Swiper(".mySwipertest", {
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+</body>
+
+</html>
